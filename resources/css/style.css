@@ -73,7 +73,7 @@ nav span{
 }
 
 div{
-  border: 1px solid black;
+
   display: block;
 }
 
@@ -125,4 +125,46 @@ div{
 
 .column.small {
   width: 240px;
+}
+
+
+.news-bites{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-bites .bite{
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title{
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size:16px;
+  font-weight: bold;
+  color: white;
+}
+footer nav{
+  display: inline-block;
 }
